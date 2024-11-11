@@ -16,5 +16,9 @@ class Solution:
 
         return [(x, y) for d, x, y in heap]
 
+
+solution = Solution()
+print(solution.kClosest(points=[[1,3],[-2,2]], k=1))
+
 # Time Complexity: O(n log k)
 # Space Complexity: O(k)
