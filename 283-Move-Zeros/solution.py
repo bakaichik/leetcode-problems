@@ -7,6 +7,8 @@ class Solution:
                 nums[i], nums[j] = nums[j], nums[i]
                 i += 1
 
+        return nums
+
 solution = Solution()
 
-print(solution.moveZeroes([0, 1, 2, 3, 4]))
+print(solution.moveZeroes([0, 0, 1, 1]))
